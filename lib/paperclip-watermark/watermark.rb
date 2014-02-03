@@ -27,7 +27,7 @@ module Paperclip
       @watermark_path   = options[:watermark_path]
       @position         = options[:position].nil? ? "SouthEast" : options[:position]
       @overlay          = options[:overlay].nil? ? true : false
-      @watermark_geometry           = options[:watermark_geometry].nil? ? "+0+0" : options[:geometry] 
+      @watermark_geometry           = options[:watermark_geometry].nil? ? "+0+0" : options[:watermark_geometry] 
       @current_format   = File.extname(@file.path)
       @basename         = File.basename(@file.path, @current_format)
     end
