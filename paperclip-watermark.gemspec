@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rake"
   gem.add_dependency "rails"
   gem.add_dependency "minitest", "4.7.5"
-  gem.add_dependency "minitest-reporters"
+  gem.add_dependency "minitest-reporters", "0.14.24"
   gem.add_dependency "paperclip", ">= 2.3.8"
 end
